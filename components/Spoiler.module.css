@@ -1,0 +1,24 @@
+.spoilerContainer {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.spoilerButtonHidden {
+    background-color: var(--code-block-tag-bg-color);
+    color: var(--code-block-tag-text-color);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+  .spoilerButtonShown {
+    background-color: var(--code-block-tag-bg-color);
+    color: var(--code-block-tag-text-color);
+    border: none;
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+  
+  
