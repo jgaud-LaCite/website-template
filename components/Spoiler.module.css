@@ -4,8 +4,8 @@
 }
 
 .spoilerButtonHidden {
-    background-color: var(--code-block-tag-bg-color);
-    color: var(--code-block-tag-text-color);
+    background-color: var(--bg-accent-color);
+    color: var(--text-inverted-color);
     border: none;
     padding: 0.5rem 0.75rem;
     cursor: pointer;
@@ -13,8 +13,8 @@
 }
   
   .spoilerButtonShown {
-    background-color: var(--code-block-tag-bg-color);
-    color: var(--code-block-tag-text-color);
+    background-color: var(--bg-accent-gradient-color);
+    color: var(--text-inverted-color);
     border: none;
     padding: 0.5rem 0.75rem;
     cursor: pointer;
