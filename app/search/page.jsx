@@ -1,5 +1,6 @@
 import { getIndexOfPages } from "@/model/pageIndex";
 import SearchResults from "@/components/SearchResults";
+import { Suspense } from "react";
 
 /**
  * @type {import('next').Metadata}
@@ -14,6 +15,8 @@ export default async function Search() {
 
     return <>
         <h1>Résultats de recherche</h1>
-        <SearchResults index={index} />
+        <Suspense>
+            <SearchResults index={index} />
+        </Suspense>
     </>
 }
